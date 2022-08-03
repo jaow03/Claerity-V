@@ -36,7 +36,7 @@ def coordinate_red_dot(x, y, w, h):
     return cx,cy
 
 #นำเข้าไฟล์วิดีโอ
-video_ref = cv2.VideoCapture("C:/Users/ACER/Desktop/detect car/เสียงรถวิ่งบนท้องถนน.mp4")
+video_ref = cv2.VideoCapture("IMG_8039.MOV")
 
 car_cascade = cv2.CascadeClassifier("C:/Users/ACER/Desktop/detect car/Computer-Vision---Object-Detection-in-Python-master/xml files/cars.xml")
 
